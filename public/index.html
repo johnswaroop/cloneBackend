@@ -1,185 +1,104 @@
 <!DOCTYPE html>
-<html lang="en">
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
 
 <head>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <title></title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap" rel="stylesheet">
-    <title>upwork</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&family=Roboto:wght@100;300;400;500;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./home.css">
 </head>
 
 <body>
 
-    <nav>
-
-        <img id="logo" src="./images/logo.png" alt="">
-        <div class="search">
-            <img src="./images/Union.png" alt="">
-            <input type="text" placeholder="Search">
-        </div>
-
+    <div class="nav">
         <ul>
-            <li>Projects</li>
-            <li>How It Works</li>
-            <li>Enterprise</li>
-            <li>Log in</li>
+            <li><input type="text" placeholder="search" /></li>
+            <li>Find Trainers</li>
+            <li>Find Jobs</li>
+            <li>Sign Up</li>
+            <li>Sign In</li>
 
         </ul>
-        <button>Sign up</button>
-    </nav>
-
-    <section class="banner">
-
-
-    </section>
-
-    <section class="sub-nav">
-
-        <ul>
-            <li>Job Support</li>
-            <li>Job Training</li>
-            <li>Job Interview</li>
-            <li>Profile Marketer</li>
-        </ul>
-
-    </section>
-
-    <section class="jobForm">
-        <h1>JOB SUPPORT</h1>
-        <div class="head"></div>
-        <label for="jobTitle">Job Title / Task :</label>
-        <input type="text" name="jobTitle" id="jobTitle">
-        <label for="jobDis">Job Discription :</label>
-        <textarea name="jobDis" id="jobDis" cols="30" rows="10"></textarea>
-
-        <label for="skillSet">Skill Set :</label>
-        <input type="text" name="skillSet" id="skillSet">
-        <label for="date">Starting Date :</label>
-        <input id="date" type="date" name="date">
-        <label for="budget">Budget :</label>
-        <input id="range" type="range" min="1000" max="10000" name="budget">
+    </div>
+    <div class="hero">
 
 
 
 
 
-        <div class="row"> <label for="name">Send notification :</label> <input name="check" type="checkbox" id="check">
-        </div>
-        <button>Post Job</button>
 
-    </section>
+        <div class="hero-main">
 
-    <section class="jobForm">
-        <h1>JOB TRAINING</h1>
-        <div class="head"></div>
-        <label for="jobTitle">Job Title / Task :</label>
-        <input type="text" name="jobTitle">
-        <label for="jobDis">Job Discription :</label>
-        <textarea name="jobDis" id="jobDis" cols="30" rows="10"></textarea>
-
-        <label for="skillSet">Skill Set :</label>
-        <input type="text" name="skillSet">
-        <label for="date">Starting Date :</label>
-        <input id="date" type="date" name="date">
-        <label for="budget">Budget :</label>
-        <input id="range" type="range" min="1000" max="10000" name="budget">
-
-        <div class="row"> <label for="name">Send notification :</label> <input name="check" type="checkbox" id="check">
-        </div>
-
-        <button>Post Job</button>
-
-    </section>
-
-    <section class="jobForm">
-
-        <div class="rowForm">
-
-            <div class="columnLabel">
-                <label for="">First Name :</label>
-                <input name="firstName" type="text">
+            <div class="title">
+                <h1>Join the World's<br>
+                    work Marketplace</h1>
+                <p>Find great talent. Build your business.<br>
+                    Take your career to the next level.</p>
             </div>
 
-            <div class="columnLabel">
-                <label for="">Last Name :</label>
-                <input name="lastName" type="text">
-            </div>
+            <img src="./images/hero.png" alt="">
+
 
         </div>
 
-        <label for="exp">Experience :</label>
-        <select id="exp" name="exp" type="text">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="10">7</option>
-        </select>
 
-        <label for="">Upload Profile Image :</label>
-        <div class="upload-box">
 
-            <p id="profile-path"></p>
-            <button id="upload-btn">
+    </div>
 
-                <label id="upload-label" for="profile">Upload</label>
-                <input type="file" name="profile" id="profile" style="display: none;">
+    <div class="footer">
 
-            </button>
+        <div>
+
+
+            <img src="./images/logo.png" alt="">
+
+            <span>
+
+                <p>
+                    Upwork, formerly Elance-oDesk, is an American freelancing platform where enterprises and individuals
+                    connect in order to conduct business. In 2015, the Elance-oDesk merger was rebranded as Upwork and
+                    the company's full name is now Upwork Global Inc.
+                </p>
+
+            </span>
+
+
+
         </div>
 
-        <label for="">Current Job Discription :</label>
-        <textarea name="" id="j-Dis" cols="30" rows="10"></textarea>
+        <div class="links">
+            <ul>
+                <li>How to Hire</li>
+                <li>Talent Marketplace</li>
+                <li>Project Catalog</li>
+                <li>Talent Scout</li>
 
-        <label for="">Upload Resume :</label>
-        <div class="upload-box">
+            </ul>
 
-            <p id="resume-path"></p>
-            <button id="upload-btn">
+            <ul>
+                <li>Enterprise</li>
+                <li>Payroll Services</li>
+                <li>Direct Contracts</li>
+                <li>Hire Worldwide</li>
 
-                <label id="upload-label" for="resume">Upload</label>
-                <input type="file" name="resume" id="resume" style="display: none;">
-
-            </button>
+            </ul>
         </div>
 
-        <label for="exp">Skill Set :</label>
-        <select id="exp" name="exp" type="text">
-            <option value="1">1</option>
-            <option value="2">2</option>
-            <option value="3">3</option>
-            <option value="4">4</option>
-            <option value="5">5</option>
-            <option value="6">6</option>
-            <option value="10">7</option>
-        </select>
-       
-        <div class="row"> <label for="name">Job Support :</label> <input name="check" type="checkbox" id="check">
-        </div>
-
-        <div class="row"> <label for="name">Job Discription :</label> <input name="check" type="checkbox" id="check">
-        </div>
-
-        <div class="row"> <label for="name">Job Interview Support :</label> <input name="check" type="checkbox" id="check">
-        </div>
-
-        <div class="row"> <label for="name">Profile Marketting :</label> <input name="check" type="checkbox" id="check">
-        </div>
-        
 
 
+    </div>
 
-        <button>Post Job</button>
-
-    </section>
-
-
-    <script src="./app.js"></script>
+    <script src="" async defer></script>
 </body>
 
 </html>
